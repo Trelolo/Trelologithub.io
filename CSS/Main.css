@@ -1,0 +1,255 @@
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+header a{
+	color: #FCCFB6;
+	text-transform: uppercase;
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.11em;
+}
+
+header a:hover{
+	transition: 0.5s;
+	color: #F0C146;
+}
+
+h1{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 54px;
+	color: #FFFFFF;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+
+}
+
+h2{
+	margin: 0;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	
+}
+
+h3{
+	margin: 0;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: #000000;
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+}
+
+h4{
+	margin: 0;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+}
+
+h4 a{
+	color: #FCCFB6;
+	text-transform: uppercase;
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.11em;
+}
+
+h4 a:hover{
+	color: #F0C146;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 0;
+	position: absolute;
+	text-align: justify;
+	line-height: 34px;
+}
+
+.body{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+}
+
+.header{
+	background: url('../data/Background_main.jpg') no-repeat center top / cover;
+}
+
+.top{
+	display: flex;
+}
+
+.menu{
+	display: flex;
+	list-style-type: none;
+	padding-top: 16px;
+	padding-left: 0px;
+	margin: 0;
+	/*position: fixed; фиксируем меню
+	right: 112px;*/
+
+}
+
+.logo_1{
+	margin-right: 34px;
+}
+
+.button_1{
+	background: url('../data/Button_1.svg');
+	padding: 16px 14px;
+	margin-right: 5px;
+}
+
+.button_2{
+	background: url('../data/Button_2_3.svg');
+	padding: 16px 51px;
+	margin-right: 5px;
+}
+
+.button_3{
+	background: url('../data/Button_2_3.svg');
+	padding: 16px 19px;
+	margin-right: 5px;
+}
+
+.button_4{
+	background: url('../data/Button_4.svg');
+	padding: 16px 130px;
+}
+
+.onBackLine{
+	padding-left: 89px;
+	padding-top: 140px;
+}
+
+.begn{
+	width: 902px;
+	height: 94px;
+	left: 109px;
+	top: 326px;
+}
+
+.paragraph_1{
+	width: 885px;
+	height: 102px;
+	left: 118px;
+	top: 420px;
+}
+
+.paragraph_2{
+	width: 885px;
+	height: 136px;
+	left: 118px;
+	top: 557px;
+}
+
+.paragraph_3{
+	width: 885px;
+	height: 136px;
+	left: 118px;
+	top: 728px;
+}
+
+.abot{
+	width: 804px;
+	height: 97px;
+	left: 158px;
+	top: 1060px;
+}
+
+.abot_id{
+	width: 20px;
+	height: 20px;
+	left: 158px;
+	top: 1000px;
+}
+
+.paragraph_4{
+	width: 836px;
+	height: 691px;
+	left: 142px;
+	top: 1157px;
+}
+
+.colortext{
+	color:#EE8484;
+}
+
+.castleEx{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 670px;
+	height: 606px;
+	left: 1123px;
+	top: 1203px;
+} 
+
+.expl{
+	width: 634px;
+	height: 44px;
+	left: 1141px;
+	top: 1838px;
+}
+
+.logo_2{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 363px;
+	height: 146px;
+	left: 378px;
+	top: 1999px;
+}
+
+.cont{
+	width: 862px;
+	height: 65px;
+	left: 1044px;
+	top: 2058px;
+}
+
+.castleEx:hover{
+	transition: 1s;
+	transform: scale(1.12);
+}
+
+.castleEx:not(:hover){
+	transition: 1s;
+	transform: scale(1);
+}

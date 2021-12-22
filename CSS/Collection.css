@@ -1,0 +1,272 @@
+html{
+	overflow-x: hidden;
+}
+
+a{
+	color: #FCCFB6;
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.11em;
+}
+
+a:hover{
+	transition: 0.5s;
+	color: #F0C146;
+}
+
+h1{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+}
+
+h2{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: #FFFFFF;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	left: 1044px;
+	top: 1022px;
+}
+
+h2 a{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+}
+
+body{
+	margin: 0;
+	background: url('../data/Background_collection.jpg') no-repeat center top / cover;
+}
+
+header{
+	width: 100%;
+}
+
+.top{
+	display: flex;
+}
+
+.logo_2{
+	padding-left: 8px;
+	padding-top: 13px;
+	padding-right: 14px;
+}
+
+.menu{
+	display: flex;
+	list-style-type: none;
+	padding-top: 16px;
+	padding-left: 0px;
+	margin: 0;
+	/*position: fixed; фиксируем меню
+	right: 112px;*/
+}
+
+.button_1{
+	background: url('../data/Button_1_collection.svg');
+	padding: 16px 14px;
+	margin-right: 5px;
+}
+
+.button_2{
+	background: url('../data/Button_2_3_collection.svg');
+	padding: 16px 51px;
+	margin-right: 5px;
+}
+
+.button_3{
+	background: url('../data/Button_2_3_collection.svg');
+	padding: 16px 19px;
+	margin-right: 5px;
+}
+
+.button_4{
+	background: url('../data/Button_4_collection.svg');
+	padding: 16px 130px;
+}
+
+section{
+	margin: 0;
+}
+
+.container_1{
+	display: flex;
+}
+
+.black_line{
+	margin: 0;
+	padding-left: 27px;
+	padding-top: 62px;
+}
+
+.cat{
+	position: absolute;
+	width: 191px;
+	height: 31px;
+	left: 141px;
+	top: 248px;
+}
+
+.catList{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: #FFFFFF;
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+	vertical-align:bottom;
+}
+
+.cat_A{
+	background: url('../data/Button_5_collection.svg') no-repeat center;
+	position: absolute;
+	left: 45px;
+	top: 320px;
+	width: 81px;
+	height: 44px;
+	text-align: center;
+	padding: 14px 151px 14px 151px;
+	opacity: 0.6;
+}
+
+.cat_A:hover{
+	transition: 1s;
+	opacity: 1;
+	color: #000;
+}
+
+.cat_A:not(:hover){
+	transition: 1s;
+	opacity: 0.6;
+}
+
+.cat_B{
+	background: url('../data/Button_5_collection.svg') no-repeat center;
+	position: absolute;
+	left: 45px;
+	top: 433px;
+	width: 81px;
+	height: 44px;
+	text-align: center;
+	padding: 14px 151px 14px 151px;
+	opacity: 0.6;
+}
+
+.cat_B:hover{
+	transition: 1s;
+	opacity: 1;
+	color: #000;
+}
+
+.cat_B:not(:hover){
+	transition: 1s;
+	opacity: 0.6;
+}
+
+.cat_C{
+	background: url('../data/Button_5_collection.svg') no-repeat center;
+	position: absolute;
+	left: 45px;
+	top: 546px;
+	width: 81px;
+	height: 44px;
+	text-align: center;
+	padding: 14px 151px 14px 151px;
+	opacity: 0.6;
+}
+
+.cat_C:hover{
+	transition: 1s;
+	opacity: 1;
+	color: #000;
+}
+
+.cat_C:not(:hover){
+	transition: 1s;
+	opacity: 0.6;
+}
+
+.cat_D{
+	background: url('../data/Button_5_collection.svg') no-repeat center;
+	position: absolute;
+	left: 45px;
+	top: 659px;
+	width: 81px;
+	height: 44px;
+	text-align: center;
+	padding: 14px 151px 14px 151px;
+	opacity: 0.6;
+}
+
+.cat_D:hover{
+	transition: 1s;
+	opacity: 1;
+	color: #000;
+}
+
+.cat_D:not(:hover){
+	transition: 1s;
+	opacity: 0.6;
+}
+
+.cat_ALL{
+	background: url('../data/Button_5_collection.svg') no-repeat center;
+	position: absolute;
+	left: 45px;
+	top: 772px;
+	width: 81px;
+	height: 44px;
+	text-align: center;
+	padding: 14px 151px 14px 151px;
+	opacity: 0.6;
+}
+
+.cat_ALL:hover{
+	transition: 1s;
+	opacity: 1;
+	color: #000;
+}
+
+.cat_ALL:not(:hover){
+	transition: 1s;
+	opacity: 0.6;
+}
+
+.blockCover{
+	padding-top: 62px;
+	padding-left: 84px;
+	width: 1473px;
+	display: grid;
+	grid-template-rows: 358px 358px;
+	grid-template-columns: 358px 358px 358px 358px;
+}
+
+.hide{
+	transition: 1s;
+	opacity: 0;
+	min-width: 0;
+	min-height: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	display: grid;
+}
